@@ -1,0 +1,206 @@
+.section8__ready
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 150px 0px 150px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+
+    & > .influencer__library
+    {
+        width: 100%;
+        height: auto;
+        background: #23049D;
+        border-radius: 10px;
+        padding: 65px 62px 65px 55px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & > .descr
+        {
+
+            & > h1 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                color: #FFFFFF;
+            }
+
+            & > p 
+            {
+                width: 455px;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.8);
+                margin-top: 20px;
+            }
+        }
+
+        & > button 
+        {
+            width: 272px;
+            height: 46px;
+            line-height: 46px;
+            background: #FFDF6B;
+            border-radius: 10px;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #000000;
+            border: none;
+            margin-top: 40px;
+        }
+
+    }
+}
+
+@media screen and (max-width:1365.78px)
+{
+    .section8__ready
+    {
+        width: 100%;
+        height: auto;
+        padding: 150px 40px 0px 40px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    }
+}
+
+@media screen and (max-width:991.78px)
+{
+    .section8__ready
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 40px 0px 40px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        text-align: center;
+    
+        & > .influencer__library
+        {
+            width: 100%;
+            height: auto;
+            background: #23049D;
+            border-radius: 10px;
+            padding: 65px 62px 65px 55px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+            & > .descr
+            {
+    
+                & > h1 
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    color: #FFFFFF;
+                }
+    
+                & > p 
+                {
+                    width: 455px;
+                    margin: 20px auto;
+                    font-family: 'Mulish';
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.8);
+                }
+            }
+    
+            & > button 
+            {
+                width: 272px;
+                height: 46px;
+                line-height: 46px;
+                background: #FFDF6B;
+                border-radius: 10px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #000000;
+                border: none;
+                margin: 40px auto;
+            }
+    
+        }
+    }
+}
+
+
+
+@media screen and (max-width:767.78px)
+{
+    .section8__ready
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        text-align: center;
+    
+        & > .influencer__library
+        {
+            width: 100%;
+            height: auto;
+            background: #23049D;
+            border-radius: 10px;
+            padding: 20px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+            & > .descr
+            {
+    
+                & > h1 
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    color: #FFFFFF;
+                }
+    
+                & > p 
+                {
+                    width: auto;
+                    margin: 20px auto;
+                    font-family: 'Mulish';
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.8);
+                }
+            }
+    
+            & > button 
+            {
+                width: 240px;
+                height: 46px;
+                line-height: 46px;
+                background: #FFDF6B;
+                border-radius: 10px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                color: #000000;
+                border: none;
+                margin: 40px auto;
+            }
+    
+        }
+    }
+}

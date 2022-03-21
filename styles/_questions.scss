@@ -1,0 +1,134 @@
+.section7__questions
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 150px 0px 150px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+
+    & > h1 
+    {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #23049D;
+        margin-bottom: 55px;
+
+    }
+
+    & > .accordion
+    {
+        & > .accordion-item
+        {
+            & > .accordion-header
+            {
+                
+                & > .accordion-button:not(.collapsed)
+                {
+                    background: #ff79ce10;
+                }
+                & > .accordion-button
+                {
+                    background: #ff79ce10;
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+
+            & > .accordion-collapse 
+            {
+                & > .accordion-body
+                {
+                    background: #ff79ce10;
+
+                    & > p 
+                    {
+                        font-family: 'Mulish';
+                        font-size: 15px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991.78px)
+{
+    .section7__questions
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    }
+}
+
+@media screen and (max-width:575.78px)
+{
+    .section7__questions
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    
+        & > h1 
+        {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            text-align: center;
+            color: #23049D;
+            margin-bottom: 55px;
+    
+        }
+    
+        & > .accordion
+        {
+            & > .accordion-item
+            {
+                & > .accordion-header
+                {
+                    
+                    & > .accordion-button:not(.collapsed)
+                    {
+                        background: #ff79ce10;
+                    }
+                    & > .accordion-button
+                    {
+                        background: #ff79ce10;
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+                }
+    
+                & > .accordion-collapse 
+                {
+                    & > .accordion-body
+                    {
+                        background: #ff79ce10;
+    
+                        & > p 
+                        {
+                            font-family: 'Mulish';
+                            font-size: 13px;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

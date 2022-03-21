@@ -1,0 +1,331 @@
+.section1__influencer
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 120px 0 120px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+    
+
+    & > .influencer__bg
+    {
+        background: url('../photo/background.png') no-repeat center center / cover;
+        border-radius: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        & > .influencer__descr
+        {
+            overflow: auto;
+            padding-left: 50px;
+            box-sizing: border-box;
+
+            & > h1
+            {
+               width: auto;
+                margin-top: 115px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 65px;
+                color: white;
+
+            }
+
+            & > p 
+            {
+                width: auto;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.8);
+                margin-top: 20px;
+            }
+
+            & > button 
+            {
+                width: 161px;
+                height: 46px;
+                background: #FF79CD;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #FFFFFF;
+                margin-top: 30px;
+                margin-bottom: 50px;
+            }
+        }
+
+        & > .influencer__woman
+        {
+            margin-right: 25px;
+            margin-top: -200px;
+        }
+    }
+
+    
+} // section1
+
+@media screen and (max-width:1365.78px)
+{
+    .section1__influencer
+    {
+        width: 100%;
+        height: auto;
+        padding: 150px 60px 0 60px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1181.78px)
+{
+    .section1__influencer
+{
+    width: 100%;
+    height: auto;
+    padding: 100px 60px 0 60px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+    
+
+    & > .influencer__bg
+    {
+        background: url('../photo/background.png') no-repeat center center / cover;
+        border-radius: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        & > .influencer__descr
+        {
+            overflow: auto;
+            padding-left: 50px;
+            box-sizing: border-box;
+            width: 500px;
+            display: block;
+            margin: auto;
+
+            & > h1
+            {
+                
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 65px;
+                color: white;
+
+            }
+
+            & > p 
+            {
+                width: auto;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.8);
+                margin-top: 20px;
+            }
+
+            & > button 
+            {
+                width: 161px;
+                height: 46px;
+                background: #FF79CD;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #FFFFFF;
+                margin-top: 30px;
+                margin-bottom: 50px;
+            }
+        }
+
+        & > .influencer__woman
+        {
+            margin: auto;
+            margin-top: 0px;
+        }
+    }
+
+    
+}
+}
+
+
+@media screen and (max-width:767.78px)
+{
+    .section1__influencer
+    {
+        width: 100%;
+        height: auto;
+        padding: 50px 20px 0 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    
+
+    & > .influencer__bg
+    {
+        background: url('../photo/background.png') no-repeat center center / cover;
+        border-radius: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        & > .influencer__descr
+        {
+            overflow: auto;
+            padding-left: 0px;
+            box-sizing: border-box;
+            width: auto;
+            display: block;
+            margin: auto;
+            text-align: center;
+
+            & > h1
+            {
+                
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45px;
+                color: white;
+                margin: 25px 15px;
+
+            }
+
+            & > p 
+            {
+                width: auto;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.8);
+                margin: 15px 15px;
+            }
+
+            & > button 
+            {
+                width: 140px;
+                height: 40px;
+                background: #FF79CD;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #FFFFFF;
+                margin: 20px 15px;
+            }
+        }
+
+        & > .influencer__woman
+        {
+            margin: auto;
+            margin-top: 0px;
+            & > img 
+            {
+                margin-top: 40px;
+                width: 350px;
+            }
+        }
+    }
+
+    
+}
+}
+
+
+
+@media screen and (max-width:399.78px)
+{
+    .section1__influencer
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 0 20px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+    
+
+    & > .influencer__bg
+    {
+        background: url('../photo/background.png') no-repeat center center / cover;
+        border-radius: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        & > .influencer__descr
+        {
+            overflow: auto;
+            padding-left: 0px;
+            box-sizing: border-box;
+            width: auto;
+            display: block;
+            margin: auto;
+
+            & > h1
+            {
+                
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                color: white;
+                margin: 25px 15px;
+
+            }
+
+            & > p 
+            {
+                width: auto;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.8);
+                margin: 15px 15px;
+            }
+
+            & > button 
+            {
+                width: 120px;
+                height: 35px;
+                background: #FF79CD;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                color: #FFFFFF;
+                margin: 20px 15px;
+            }
+        }
+
+        & > .influencer__woman
+        {
+            margin: auto;
+            margin-top: 0px;
+            & > img 
+            {
+                width: 260px;
+                margin-top: 40px;
+            }
+        }
+    }
+
+    
+}
+}
+
+
+
+

@@ -1,0 +1,294 @@
+.section7__cards
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 100px 0px 100px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+
+    & > h1 
+    {
+        width: auto;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #23049D;
+    }
+
+    & > button
+    {
+        width: 270px;
+        height: 45px;
+        line-height: 45px;
+        background: #FFDF6B;
+        border-radius: 10px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        border: none;
+        display: block;
+        margin: 25px auto;
+    } 
+
+    & > .cards 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 40px;
+        
+
+        & > .card
+        {
+            width: 240px;
+            height: 320px;
+            background: #FFFFFF;
+            box-shadow: 4px 5px 24px rgba(0, 0, 0, 0.03);
+            border-radius: 5px;
+            text-align: center;
+            padding: 40px 22px 25px 22px;
+            box-sizing: border-box;
+            margin: 10px 10px;
+
+            & > img 
+            {
+                width: 82px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            & > h2 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                color: #000000;
+                margin-top: 20px;
+
+            }
+
+            & > h3 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.6);
+            }
+
+            & > .stars 
+            {
+                margin-top: 15px;
+                height: 20px;
+                width: 125px;
+            }
+
+            & > .social__media
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 23px;
+
+                & > .facebook
+                {
+                    width: 90px;
+                    height: 35px;
+                    background: #23049d10;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    padding: 0px 8px;
+                    box-sizing: border-box;
+
+                    & > i 
+                    {
+                        color: #0053BF;
+                        font-size: 20px;
+                        line-height: 35px;
+                        
+                    }
+
+                    & > p 
+                    {
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        color: #000000;
+                        line-height: 35px;
+                    }
+                }
+
+                & > .facebook:nth-child(2) i 
+                {
+                    color: red;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991.78px)
+{
+    .section7__cards
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    }
+}
+
+@media screen and (max-width:575.78px)
+{
+    .section7__cards
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+    
+        & > h1 
+        {
+            width: auto;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            text-align: center;
+            color: #23049D;
+        }
+    
+        & > button
+        {
+            width: 240px;
+            height: 45px;
+            line-height: 45px;
+            background: #FFDF6B;
+            border-radius: 10px;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #000000;
+            border: none;
+            display: block;
+            margin: 25px auto;
+        } 
+    
+        & > .cards 
+        {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+            
+    
+            & > .card
+            {
+                width: 240px;
+                height: 320px;
+                background: #FFFFFF;
+                box-shadow: 4px 5px 24px rgba(0, 0, 0, 0.03);
+                border-radius: 5px;
+                text-align: center;
+                padding: 40px 22px 25px 22px;
+                box-sizing: border-box;
+                margin: 10px 10px;
+    
+                & > img 
+                {
+                    width: 82px;
+                    display: block;
+                    margin: 0 auto;
+                }
+    
+                & > h2 
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #000000;
+                    margin-top: 20px;
+    
+                }
+    
+                & > h3 
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+    
+                & > .stars 
+                {
+                    margin-top: 15px;
+                    height: 20px;
+                    width: 125px;
+                }
+    
+                & > .social__media
+                {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 23px;
+    
+                    & > .facebook
+                    {
+                        width: 90px;
+                        height: 35px;
+                        background: #23049d10;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        padding: 0px 8px;
+                        box-sizing: border-box;
+    
+                        & > i 
+                        {
+                            color: #0053BF;
+                            font-size: 20px;
+                            line-height: 35px;
+                            
+                        }
+    
+                        & > p 
+                        {
+                            font-family: 'Quicksand';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            color: #000000;
+                            line-height: 35px;
+                        }
+                    }
+    
+                    & > .facebook:nth-child(2) i 
+                    {
+                        color: red;
+                    }
+    
+                }
+            }
+        }
+    }
+}

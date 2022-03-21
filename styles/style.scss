@@ -1,0 +1,28 @@
+@import '../styles/header';
+@import '../styles/fonts';
+@import '../styles/influencer';
+@import '../styles/hamburger';
+@import '../styles/smart';
+@import '../styles/beautiful';
+@import '../styles/feedback';
+@import '../styles/review';
+@import '../styles/brands';
+@import '../styles/cards';
+@import '../styles/questions';
+@import '../styles/ready';
+@import '../styles/footer';
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site
+{
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}

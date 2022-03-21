@@ -1,0 +1,432 @@
+.section3__beautiful
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 100px 0px 100px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    & > .beautiful__descr
+    {
+        width: 450px;
+        height: auto;
+
+        & > h2 
+        {
+            font-family: 'Norican';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            color: #AA2EE6;
+        }
+
+        & > h1 
+        {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            color: #23049D;
+            margin-top: 15px;
+        }
+
+        & > p 
+        {
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: 30px;
+        }
+
+        & > .descr__fashion
+        {
+            margin-top: 30px;
+            width: 430px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            & > .beauty
+            {
+                width: 200px;
+                height: 50px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
+                border-radius: 10px;
+                margin-top: 20px;
+
+                & > h4
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #5961DE;
+                    line-height: 50px;
+                    text-align: center;
+                }
+            }
+
+            & > .beauty:nth-child(2) h4
+            {
+                color: #FF783E;
+            }
+
+            & > .beauty:nth-child(3) h4
+            {
+                color: #EE5188;
+            }
+
+            & > .beauty:nth-child(4) h4
+            {
+                color: #4BBF83;
+            }
+
+            & > .beauty:hover
+            {
+                transform: scale(1.1);
+            }
+
+
+        }
+
+        & > button 
+        {
+            width: 175px;
+            height: 45px;
+            background: #23049D;
+            border-radius: 10px;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 45px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 50px;
+        }
+
+        & > button:hover 
+        {
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+@media screen and (max-width:1365.78px)
+{
+    .section3__beautiful
+    {
+        width: 100%;
+        height: auto;
+        padding: 150px 40px 0px 40px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:1023.78px)
+{
+    .section3__beautiful
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 40px 0px 40px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        & > .beautiful__descr
+        {
+            & > button 
+            {
+                display: block;
+                margin: 50px auto;
+            }
+        }
+
+        & > .beautiful__img
+        {
+            margin-top: 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width:575.78px)
+{
+    .section3__beautiful
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+        & > .beautiful__descr
+        {
+            width: auto;
+            height: auto;
+            margin: auto;
+            text-align: center;
+    
+            & > h2 
+            {
+                font-family: 'Norican';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 34px;
+                color: #AA2EE6;
+                text-align: center;
+            }
+    
+            & > h1 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                color: #23049D;
+                margin-top: 15px;
+            }
+    
+            & > p 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                margin-top: 30px;
+            }
+    
+            & > .descr__fashion
+            {
+                margin-top: 30px;
+                width: auto;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+    
+                & > .beauty
+                {
+                    width: 200px;
+                    height: 50px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
+                    border-radius: 10px;
+                    margin: 20px 0px 0px 5px;
+    
+                    & > h4
+                    {
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        color: #5961DE;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+    
+                & > .beauty:nth-child(2) h4
+                {
+                    color: #FF783E;
+                }
+    
+                & > .beauty:nth-child(3) h4
+                {
+                    color: #EE5188;
+                }
+    
+                & > .beauty:nth-child(4) h4
+                {
+                    color: #4BBF83;
+                }
+    
+                & > .beauty:hover
+                {
+                    transform: scale(1.1);
+                }
+    
+    
+            }
+    
+            & > button 
+            {
+                width: 175px;
+                height: 45px;
+                background: #23049D;
+                border-radius: 10px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 45px;
+                text-align: center;
+                color: #FFFFFF;
+                display: block;
+                margin: 50px auto;
+            }
+    
+            & > button:hover 
+            {
+                transform: scale(1.1);
+            }
+        }
+
+        & > .beautiful__img img 
+        {
+            width: 350px;
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width:459.78px)
+{
+    .section3__beautiful
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+        & > .beautiful__descr
+        {
+            width: auto;
+            height: auto;
+            margin: auto;
+            text-align: center;
+    
+            & > h2 
+            {
+                font-family: 'Norican';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                color: #AA2EE6;
+                text-align: center;
+            }
+    
+            & > h1 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                color: #23049D;
+                margin-top: 15px;
+            }
+    
+            & > p 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                margin-top: 30px;
+            }
+    
+            & > .descr__fashion
+            {
+                margin-top: 30px;
+                width: auto;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                
+    
+                & > .beauty
+                {
+                    width: 200px;
+                    height: 50px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
+                    border-radius: 10px;
+                    display: block;
+                    margin: 20px auto;
+    
+                    & > h4
+                    {
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        color: #5961DE;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+    
+                & > .beauty:nth-child(2) h4
+                {
+                    color: #FF783E;
+                }
+    
+                & > .beauty:nth-child(3) h4
+                {
+                    color: #EE5188;
+                }
+    
+                & > .beauty:nth-child(4) h4
+                {
+                    color: #4BBF83;
+                }
+    
+                & > .beauty:hover
+                {
+                    transform: scale(1.1);
+                }
+    
+    
+            }
+    
+            & > button 
+            {
+                width: 175px;
+                height: 45px;
+                background: #23049D;
+                border-radius: 10px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 45px;
+                text-align: center;
+                color: #FFFFFF;
+                display: block;
+                margin: 50px auto;
+            }
+    
+            & > button:hover 
+            {
+                transform: scale(1.1);
+            }
+        }
+
+        & > .beautiful__img img 
+        {
+            width: 300px;
+
+        }
+    }
+
+}    

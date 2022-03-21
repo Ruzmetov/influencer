@@ -1,0 +1,86 @@
+.navbar
+{
+    display: none;
+}
+
+
+@media screen and (max-width:767.78px)
+{
+    .navbar
+    {
+        display: block;
+        width: 100%;
+        height: 70px;
+        background: #ff79ce10;
+
+        & > .container-fluid
+        {
+            & > .navbar-toggler
+            {
+                color: transparent;
+                border: none;
+                
+                & > .navbar-toggler-icon
+                {
+                    color: transparent;
+                }
+            }
+
+            & > .header__logo
+            {
+               
+
+                & > img 
+                {
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                }
+
+                & > p 
+                {
+                    margin-left: 40px;
+                    margin-top: 10px;
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: #23049D;
+                }
+            }
+
+            & > .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link
+            {
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                color: #000000;
+                margin: 0px 5px;
+            }
+
+            & > .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover
+            {
+                color: #23049D;
+                font-size: 19px;
+            }
+
+            & > .offcanvas .offcanvas-body .header__button button 
+            {
+                width: 130px;
+                height: 45px;
+                background: #FFDF6B;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #23049D;
+                margin-top: 30px;
+            }
+        }
+
+
+    }
+}

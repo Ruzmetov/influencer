@@ -1,0 +1,225 @@
+.footer
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 150px 0px 150px;
+    box-sizing: border-box;
+    background: #ff79ce10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    & > .footer__descr
+    {
+        margin: 20px 20px;
+
+        & > p 
+        {
+            width: 230px;
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: 30px;
+        }
+
+        & > h5 
+        {
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: 15px;
+        }
+
+        & > h6 
+        {
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: 45px;
+        }
+    }
+
+    & > .footer__about
+    {
+        margin: 20px 20px;
+
+        & > h4 
+        {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            color: #000000;
+        }
+
+        & > p 
+        {
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            
+        }
+
+        & > p:hover
+        {
+            font-family: 'Mulish';
+            font-size: 15px;
+            color: black;
+            font-weight: 700;
+
+        }
+    }
+
+    & > .footer__email
+    {
+        margin: 20px 20px;
+
+        & > .email 
+        {
+            & > h4 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                color: #000000;
+            }
+
+            & > p 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                
+            }
+        }
+
+        & > .email:nth-child(2) h4 
+        {
+            margin-top: 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1365.78px)
+{
+    .footer
+    {
+        width: 100%;
+        height: auto;
+        padding: 150px 40px 0px 40px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width:767.78px)
+{
+    .footer
+    {
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 0px 20px;
+        box-sizing: border-box;
+        background: #ff79ce10;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+        & > .footer__descr
+        {
+            margin: 20px 20px;
+    
+            & > p 
+            {
+                width: 230px;
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                margin-top: 30px;
+            }
+    
+            & > h5 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                margin-top: 15px;
+            }
+    
+            & > h6 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                margin-top: 45px;
+            }
+        }
+    
+        & > .footer__about
+        {
+            margin: 20px 20px;
+    
+            & > h4 
+            {
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                color: #000000;
+            }
+    
+            & > p 
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                
+            }
+    
+            & > p:hover
+            {
+                font-family: 'Mulish';
+                font-size: 15px;
+                color: black;
+                font-weight: 700;
+    
+            }
+        }
+    
+        & > .footer__email
+        {
+            margin: 20px 20px;
+    
+            & > .email 
+            {
+                & > h4 
+                {
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #000000;
+                }
+    
+                & > p 
+                {
+                    font-family: 'Mulish';
+                    font-size: 15px;
+                    color: rgba(0, 0, 0, 0.8);
+                    
+                }
+            }
+    
+            & > .email:nth-child(2) h4 
+            {
+                margin-top: 40px;
+            }
+        }
+    }
+}
